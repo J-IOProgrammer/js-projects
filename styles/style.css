@@ -18,6 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: #ffccbc;
 }
 
 .action {
@@ -49,4 +50,49 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.action .menu {
+  position: absolute;
+  top: 140px;
+  right: 0;
+  background: white;
+  width: 400px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.action .menu h3 {
+  text-align: center;
+  padding: 20px;
+  font-weight: 900;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.action .menu h3 span {
+  font-size: 14px;
+  color: #777;
+}
+
+.action .menu ul {
+  width: 100%;
+  list-style: none;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.action .menu ul li {
+  display: flex; /* place childs side by side */
+  align-items: center;
+  padding: 2px 0;
+}
+
+.action .menu ul li i {
+  width: 30px;
+  margin-left: 10px;
+  opacity: 0.6;
 }
