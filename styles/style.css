@@ -22,7 +22,7 @@ body {
 }
 
 .action {
-  top: 35%;
+  top: 25%;
   right: 50%;
   position: fixed;
   transform: translateX(50%);
@@ -54,10 +54,10 @@ body {
 
 .action .menu {
   position: absolute;
-  top: 140px;
+  top: 130px;
   right: 0;
   background: white;
-  width: 400px;
+  width: 250px;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -81,18 +81,23 @@ body {
 .action .menu ul {
   width: 100%;
   list-style: none;
-  padding: 0 30px;
+  padding: 10px 15px;
   box-sizing: border-box;
 }
 
 .action .menu ul li {
   display: flex; /* place childs side by side */
   align-items: center;
-  padding: 2px 0;
+  padding: 4px 0;
 }
 
-.action .menu ul li i {
+.svg-inline--fa {
   width: 30px;
   margin-left: 10px;
-  opacity: 0.6;
+  opacity: 0.7;
+}
+
+.action .menu ul li a {
+  text-decoration: none;
+  color: black;
 }
