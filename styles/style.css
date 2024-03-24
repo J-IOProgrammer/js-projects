@@ -24,6 +24,12 @@ body {
 .action {
   top: 35%;
   right: 50%;
+  position: fixed;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
 }
 
 .action .profile {
