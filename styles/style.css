@@ -43,6 +43,7 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  cursor: pointer;
 }
 
 .action .profile img {
@@ -54,7 +55,7 @@ body {
 
 .action .menu {
   position: absolute;
-  top: 130px;
+  top: 145px;
   right: 0;
   background: white;
   width: 250px;
@@ -63,6 +64,22 @@ body {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  opacity: 0;
+}
+
+.action .menu::before {
+  content: '';
+  position: absolute;
+  /*checkparentposition*/top: -10px;
+  right: 40px;
+  background: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
 }
 
 .action .menu h3 {
