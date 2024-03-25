@@ -18,5 +18,23 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #ffccbc;
+  background: rgb(31, 24, 158);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 24, 158, 1) 0%,
+    rgba(57, 57, 213, 1) 46%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+section video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
