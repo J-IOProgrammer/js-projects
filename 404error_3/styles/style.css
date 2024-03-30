@@ -27,10 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #151729;
-  background: url('../images/404p.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url('../images/question_mark2.png');
 }
 
 #container .content {
@@ -41,29 +38,25 @@ body {
 
 #container .content h2{
   font-size: 300px;
-  text-shadow: 0 0 3px black, 0 0 5px black;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #container .content h4{
   font-size: 50px;
-  text-shadow: 0 0 3px black, 0 0 5px black;
-  color: white;
+  color: black;
   margin-top: -100px;
   position: relative;
 }
 
 #container .content p{
   font-size: 20px;
-  text-shadow: 0 0 3px black, 0 0 5px black;
-  color: white;
+  color: black;
   margin: 25px 0;
 }
 
 #container .content a{
   text-decoration: none;
-  text-shadow: 0 0 3px black, 0 0 5px black;
-  color: white;
+  color: black;
   background-color: #8500ff;
   padding: 10px 10px;
   border-radius: 25px;
