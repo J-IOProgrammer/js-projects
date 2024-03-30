@@ -1,3 +1,1 @@
-function changeVideo(link) {
-  document.getElementById("slider").src = "videos/" + link;
-}
+const container = document.querySelector('.container');
