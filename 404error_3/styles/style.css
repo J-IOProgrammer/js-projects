@@ -32,3 +32,43 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#container .content {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#container .content h2{
+  font-size: 300px;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  color: white;
+}
+
+#container .content h4{
+  font-size: 50px;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  color: white;
+  margin-top: -100px;
+  position: relative;
+}
+
+#container .content p{
+  font-size: 20px;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  color: white;
+  margin: 25px 0;
+}
+
+#container .content a{
+  text-decoration: none;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  color: white;
+  background-color: #8500ff;
+  padding: 10px 10px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
