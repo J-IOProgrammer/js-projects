@@ -28,4 +28,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #151729;
+  background: url('../images/404p.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
