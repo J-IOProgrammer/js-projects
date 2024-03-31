@@ -18,5 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  direction: rtl;
+  background: rgb(65,175,207);
+  background: linear-gradient(90deg, rgba(65,175,207,1) 0%, rgba(212,228,44,1) 0%, rgba(0,212,255,1) 100%);
 }
+
