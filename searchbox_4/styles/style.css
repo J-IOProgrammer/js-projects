@@ -41,6 +41,15 @@ body {
   height: 50px;
   width: 20px;
   border: none;
+  transition: width .4s ease;
+  -webkit-transition: width .4s ease;
+  -moz-transition: width .4s ease;
+  -ms-transition: width .4s ease;
+  -o-transition: width .4s ease;
+}
+
+.search.active .input {
+  width: 300px;
 }
 
 .search .btn {
