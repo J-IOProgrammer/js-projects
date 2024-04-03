@@ -82,3 +82,13 @@ body {
   line-height: 5rem;
   padding-top: 12px;
 }
+
+.menuicon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: url('../images/781606-200.png');
+  background-size: 40px;
+}
