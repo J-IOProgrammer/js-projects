@@ -117,6 +117,27 @@ body {
   line-height: 5rem;
   padding-top: 12px;
   display: block;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.fullPageMenu .nav ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  color: white;
+}
+
+.fullPageMenu .nav ul li:hover a {
+  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
 }
 
 .menuicon {
