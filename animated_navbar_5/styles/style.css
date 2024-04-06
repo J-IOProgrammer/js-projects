@@ -97,3 +97,8 @@ body {
   background-size: 40px;
   cursor: pointer;
 }
+
+.menuicon.active {
+  background: url('../images/x-icon.png');
+  background-size: 40px;
+}
