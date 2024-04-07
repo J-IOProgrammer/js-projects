@@ -14,14 +14,36 @@
 
 body {
   font-family: "vazir";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
   background: rgb(65, 175, 207);
   background: linear-gradient(    90deg,
         rgba(65, 175, 207, 1) 0%,
         rgba(212, 228, 44, 1) 0%,
         rgba(0, 212, 255, 1) 100%  );
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+header h2 {
+  padding: 20px 0;
+  font-size: 2rem;
+}
+
+header .progress {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(104, 231, 189);
+}
+
+header .progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(65,175,207,1) 0%, rgba(228,133,44,1) 0%, rgba(0,48,255,1) 100%);
 }
