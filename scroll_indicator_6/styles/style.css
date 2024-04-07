@@ -34,11 +34,11 @@ h2 {
 header .progress {
   width: 100%;
   height: 10px;
-  background-color: rgb(104, 231, 189);
+  background-color: rgb(159, 173, 168);
 }
 
 header .progress .progress-bar {
-  width: 100%;
+  width: 0;
   height: 100%;
   background: linear-gradient(to right, rgba(65,175,207,1) 0%, rgba(228,133,44,1) 0%, rgba(0,48,255,1) 100%);
 }
