@@ -13,10 +13,13 @@
 
 body {
   font-family: "vazir";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
-  background-color: #ffccbc;
+}
+
+section {
+  height: 100vh; /* vh = The size that can be displayed to the user. */
+  display: flex;
+  align-items: center; /* Place in the middle of the width */
+  justify-content: center; /* Place in the middle of the length */
+  
 }
