@@ -25,3 +25,22 @@ section {
   font-size: 45px;
 }
 
+#sectionOne {
+  background: yellow;
+}
+
+#sectionTwo {
+  background: purple;
+}
+
+#sectionThree {
+  background: green;
+}
+
+#sectionFour {
+  background: red;
+}
+
+#sectionFive {
+  background: blue;
+}
