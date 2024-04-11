@@ -64,8 +64,13 @@ section {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  opacity: 0;
 }
 
 .go-top svg {
   font-size: 30px;
+}
+
+.go-top.active {
+  opacity: 1;
 }
