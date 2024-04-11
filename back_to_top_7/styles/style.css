@@ -21,5 +21,7 @@ section {
   display: flex;
   align-items: center; /* Place in the middle of the width */
   justify-content: center; /* Place in the middle of the length */
-  
+  color: white;
+  font-size: 45px;
 }
+
