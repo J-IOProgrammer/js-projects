@@ -40,3 +40,8 @@ header p {
   line-height: 25px;
 }
 
+.content {
+  width: 900px;
+  margin: 50px auto;
+  font-size: 17px;
+}
