@@ -13,9 +13,30 @@
 
 body {
   font-family: "vazir";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
+  overflow-x: hidden; /* disable scroll option */
 }
+
+header {
+  background: blue;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+header h2 {
+  font-size: 35px;
+  color: white;
+}
+
+header p {
+  color: white;
+  width: 900px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;
+}
+
