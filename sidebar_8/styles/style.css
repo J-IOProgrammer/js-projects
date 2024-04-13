@@ -48,15 +48,24 @@ header p {
 
 .sidebar {
   height: 100vh;
-  position: absolute; /* element is flexible in page */
-  left: -200px;
+  position: absolute;
+  /*elementisflexibleinpage*/left: -200px;
   top: 0;
   width: 200px;
   background: rgb(0, 89, 255);
   display: flex;
-  flex-direction: column; /* Putting children under each other */
-  align-items: center;
+  flex-direction: column;
+  /*Puttingchildrenundereachother*/align-items: center;
   padding: 50px 0;
+  transition: left .5s ease-in-out;
+  -webkit-transition: left .5s ease-in-out;
+  -moz-transition: left .5s ease-in-out;
+  -ms-transition: left .5s ease-in-out;
+  -o-transition: left .5s ease-in-out;
+}
+
+.sidebar.active {
+  left: 0;
 }
 
 .sidebar img {
