@@ -18,6 +18,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
 }
 
 .box {
@@ -34,24 +38,25 @@ body {
   height: 40px;
   margin: 5px;
   cursor: pointer;
+  text-indent: -9999px;
 }
 
 #red {
-  background: red;
+  background: #ff0000;
 }
 
 #blue {
-  background: blue;
+  background: #0000ff;
 }
 
 #green {
-  background: green;
+  background: #008000;
 }
 
 #yellow {
-  background: yellow;
+  background: #ffff00;
 }
 
 #pink {
-  background: pink;
+  background: #ffc0cb;
 }
