@@ -66,3 +66,11 @@ h1 {
 .fa-eye-slash {
   display: none;
 }
+
+.hide .fa-eye{
+  display: none;
+}
+
+.hide .fa-eye-slash{
+  display: block;
+}
