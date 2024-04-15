@@ -17,8 +17,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: rgb(65,175,207);
+  background: linear-gradient(126deg, rgba(65,175,207,1) 0%, rgba(85,228,44,1) 0%, rgba(0,151,255,1) 100%);
 }
 
 .container {
@@ -30,7 +30,8 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: blue;
+  background: rgb(65,175,207);
+  background: linear-gradient(126deg, rgba(65,175,207,1) 0%, rgba(85,228,44,1) 0%, rgba(0,151,255,1) 100%);
 }
 
 .header #background {
