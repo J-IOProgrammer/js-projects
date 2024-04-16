@@ -76,3 +76,54 @@ section .box .imageBox.active img {
   height: calc(100% - 100px);
   object-fit: cover;
 }
+
+section .box .imageBox h2 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+section .box .imageBox.active h2 {
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+  color: blue;
+  letter-spacing: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+section .box .imageBox .content {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  left: 50px;
+  background-color: rgba(0, 0, 0, .9);
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px;
+  transform: translateY(200px);
+  -webkit-transform: translateY(200px);
+  -moz-transform: translateY(200px);
+  -ms-transform: translateY(200px);
+  -o-transform: translateY(200px);
+}
+
+section .box .imageBox.active .content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+section .box .imageBox .content h3 {
+  font-size: 20px; 
+}
