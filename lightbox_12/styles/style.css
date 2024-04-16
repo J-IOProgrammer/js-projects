@@ -46,6 +46,7 @@ section .box .imageBox {
   right: 0;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 section .box .imageBox img {
@@ -54,5 +55,24 @@ section .box .imageBox img {
   right: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+section .box .imageBox.active {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+}
+
+section .box .imageBox.active img {
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  left: 50px;
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
   object-fit: cover;
 }
