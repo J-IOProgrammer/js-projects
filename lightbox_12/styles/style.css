@@ -20,3 +20,39 @@ body {
   height: 100vh;
 }
 
+section {
+  width: 100%;
+  height: 100vh;
+  background: hsla(197, 100%, 63%, 1);
+  background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+section .box .imageBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section .box .imageBox img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
