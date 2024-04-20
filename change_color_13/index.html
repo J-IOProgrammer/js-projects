@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/fontawesome.min.css">
-    <link rel="shortcut icon" href="images/earth.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/earth.png" type="image/x-icon" id="favicon">
     <title>Light Box</title>
 </head>
 
@@ -13,8 +13,8 @@
 
     <div class="container">
         <h3>Click to change the color</h3>
-        <button class="button" type="button">Earth</button>
-        <button class="button" type="button">Star</button>
+        <button class="button" type="button" onclick="changeToEarth()">Earth</button>
+        <button class="button" type="button" onclick="changeToStar()">Star</button>
     </div>
     
     <script src="js/all.min.js"></script>
