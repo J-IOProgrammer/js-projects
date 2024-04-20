@@ -24,11 +24,17 @@ body {
   background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
 }
 
+.container {
+  text-align: center;
+}
+
 .container .button {
   width: 150px;
   background: orange;
   font-size: 20px;
-  padding: 15px;
+  padding: 10px;
   border: none;
   font-family: 'vazir';
+  cursor: pointer;
+  color: white;
 }
