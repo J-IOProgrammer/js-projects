@@ -31,6 +31,7 @@ header {
   width: 100%;
   top: 0;
   right: 0;
+  padding: 40px 0;
 }
 
 header nav {
@@ -41,13 +42,16 @@ header nav {
 
 header nav ul {
   display: flex;
-  background: rgb(0, 0, 0);
+  list-style: none;
 }
 
-header nav ul a {
-  background: yellow;
+header nav ul li {
+  margin: 0 0 0 15px;
 }
 
-header nav a {
-  background: rgb(33, 154, 224);
+header a {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
 }
