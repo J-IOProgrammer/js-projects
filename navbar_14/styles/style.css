@@ -44,6 +44,20 @@ header {
   top: 0;
   right: 0;
   padding: 40px 0;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+header.stick {
+  background: white;
+  padding: 5px 0;
+}
+
+header.stick a {
+  color: black;
 }
 
 header nav {
