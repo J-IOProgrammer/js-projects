@@ -122,6 +122,11 @@ header nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.controls li:hover {
+  background: rgb(51, 51, 236);
 }
 
 /*
@@ -139,4 +144,12 @@ before and after are an empty space before and after the tag
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
+}
+
+.controls li:nth-child(2)::before {
+  transform: rotate(-130deg);
+  -webkit-transform: rotate(-130deg);
+  -moz-transform: rotate(-130deg);
+  -ms-transform: rotate(-130deg);
+  -o-transform: rotate(-130deg);
 }
