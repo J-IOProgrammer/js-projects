@@ -24,3 +24,12 @@ body {
   background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
 }
 
+#open {
+  background: rgb(37, 83, 236);
+  border: 3px solid rgb(37, 83, 236);
+  font-family: 'vazir';
+  color: white;
+  padding: 10px 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
