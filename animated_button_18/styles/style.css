@@ -44,3 +44,27 @@ a {
 a:nth-child(2) {
   background: blue;
 }
+
+span {
+  background: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: animate 1s linear infinite;
+  -webkit-animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: .5;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
+}
