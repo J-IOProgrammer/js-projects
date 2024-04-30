@@ -39,6 +39,8 @@ a {
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+  overflow: hidden;
+  position: relative;
 }
 
 a:nth-child(2) {
@@ -48,6 +50,7 @@ a:nth-child(2) {
 span {
   position: absolute;
   background: white;
+  transform: translate(-50% , -50%);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -56,6 +59,10 @@ span {
   animation: animate 1s linear infinite;
   -webkit-animation: animate 1s linear infinite;
   pointer-events: none;
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
 }
 
 @keyframes animate {
