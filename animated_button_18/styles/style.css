@@ -14,7 +14,6 @@
 body {
   font-family: "vazir";
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -22,4 +21,26 @@ body {
   background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
   background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: red;
+  margin: 0 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: 'vazir';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+a:nth-child(2) {
+  background: blue;
 }
