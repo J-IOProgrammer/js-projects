@@ -46,6 +46,7 @@ a:nth-child(2) {
 }
 
 span {
+  position: absolute;
   background: white;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -54,6 +55,7 @@ span {
   -o-border-radius: 50%;
   animation: animate 1s linear infinite;
   -webkit-animation: animate 1s linear infinite;
+  pointer-events: none;
 }
 
 @keyframes animate {
