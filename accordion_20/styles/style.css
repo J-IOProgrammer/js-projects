@@ -59,6 +59,6 @@ body {
 
 .accordion .accordion-content {
   background: white;
-  height: 0;
+  height: 0; /* usefull for if condition in js */
   overflow: hidden;
 }
