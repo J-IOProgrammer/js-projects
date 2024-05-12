@@ -13,14 +13,39 @@
 
 body {
   font-family: "vazir";
-  display: flex;
-  direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: hsla(197, 100%, 63%, 1);
-  background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-  background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  background: rgb(65, 175, 207);
+  background: linear-gradient(
+    126deg,
+    rgba(65, 175, 207, 1) 0%,
+    rgba(85, 228, 44, 1) 0%,
+    rgba(254, 255, 0, 1) 100%
+  );
 }
 
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content small {
+  color: gray;
+}
+
+.content p {
+  line-height: 25px;
+}
+
+.content h3 {
+  padding: 20px 0;
+}
