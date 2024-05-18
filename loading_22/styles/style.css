@@ -21,3 +21,18 @@ body {
   background-color: #ffccbc;
 }
 
+h2 {
+  font-size: 40px;
+}
+
+.img {
+  width: 1000px;
+  display: flex;
+  margin: auto;
+}
+
+.img .thumb {
+  width: 33%;
+  height: 40vh;
+  margin: 10px;
+}
