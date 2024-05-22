@@ -31,6 +31,18 @@ body {
   background-color: #ffffff;
 }
 
+.loader.hidden {
+  animation: fadeOut 1s;
+  -webkit-animation: fadeOut 1s;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 h2 {
   font-size: 40px;
 }
