@@ -34,6 +34,7 @@ body {
 .loader.hidden {
   animation: fadeOut 1s;
   -webkit-animation: fadeOut 1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeOut {
