@@ -143,3 +143,18 @@ header nav .logo {
 .thumb li img {
   width: 100px;
 }
+
+.social {
+  position: absolute;
+  right: 30px;
+  list-style: none;
+}
+
+.social li {
+  margin: 20px 0;
+}
+
+.social a {
+  font-size: 25px;
+  color: white;
+}
