@@ -42,3 +42,16 @@ header {
   justify-content: center;
 }
 
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
