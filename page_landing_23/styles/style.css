@@ -69,3 +69,26 @@ header nav .logo {
   text-decoration: none;
   letter-spacing: 4px;
 }
+
+.content {
+  width: 100%;
+}
+
+.content .contentBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .contentBox .imageBox {
+  width: 50%;
+}
+
+.content .contentBox .imageBox img {
+  width: 100%;
+}
+
+.content .contentBox .textBox {
+  width: 50%;
+}
