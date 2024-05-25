@@ -79,6 +79,7 @@ header nav .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*flex-direction: row-reverse;*/
 }
 
 .content .contentBox .imageBox {
@@ -92,3 +93,32 @@ header nav .logo {
 .content .contentBox .textBox {
   width: 50%;
 }
+
+.content .contentBox .textBox h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.content .contentBox .textBox h2 span {
+  color: green;
+}
+
+.content .contentBox .textBox p {
+  color: white;
+  line-height: 25px;
+  margin: 20px 0;
+}
+
+.content .contentBox .textBox a {
+  text-decoration: none;
+  background: green;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
