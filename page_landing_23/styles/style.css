@@ -122,3 +122,24 @@ header nav .logo {
   -o-border-radius: 10px;
 }
 
+.thumb {
+  list-style: none;
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.thumb li {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.thumb li img {
+  width: 100px;
+}
