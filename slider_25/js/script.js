@@ -12,4 +12,20 @@ backSlide.onclick = function () {
   next("back");
 };
 
-function next(direction) {}
+function next(direction) {
+  if (direction == "next") {
+    index++;
+    if (index == totalItems) {
+      index = 0;
+    }
+  } else {
+    if (index == 0) {
+      index = totalItems - 1;
+    }
+    index--;
+  }
+  for (let i = 0; i < totalItems; i++) {
+    items[i].classList.remove('active'); 
+  }
+  items[index].classList.add("active");
+}
