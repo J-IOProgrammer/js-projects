@@ -48,3 +48,36 @@ body {
 .container .menu-open:hover {
   color: white;
 }
+
+.layer-1 {
+  position: relative;
+  background: yellow;
+  top: 0;
+  /* right */
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+
+.layer-2, .layer-3, .layer-4 {
+  position: absolute;
+  top: 0;
+  /* right */
+  left: 0;
+  height: 100%;
+}
+
+.layer-2 {
+  background: rgb(208, 146, 11);
+  width: 230px;
+}
+
+.layer-3 {
+  background: rgb(196, 90, 3);
+  width: 210px;
+}
+
+.layer-4 {
+  background: white;
+  width: 190px;
+}
