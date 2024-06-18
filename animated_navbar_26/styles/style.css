@@ -57,6 +57,8 @@ body {
   left: 0;
   width: 0; /* 250px */
   height: 100%;
+  transition: all .3s ease-in-out;
+  transition-delay: .9s;
 }
 
 .layer-2, .layer-3, .layer-4 {
@@ -70,17 +72,23 @@ body {
 .layer-2 {
   background: rgb(208, 146, 11);
   width: 0; /* 230px */
+  transition: all .3s ease-in-out;
+  transition-delay: .7s;
 }
 
 .layer-3 {
   background: rgb(196, 90, 3);
   width: 0; /* 210px */
+  transition: all .3s ease-in-out;
+  transition-delay: .5s;
 }
 
 .layer-4 {
   background: white;
   width: 0; /* 190px */
   overflow: hidden;
+  transition: all .3s ease-in-out;
+  transition-delay: .3s;
 }
 
 .menu-close {
@@ -115,16 +123,24 @@ body {
 
 .layer-1.check {
   width: 250px;
+  transition: .5s;
+  transition-delay: .3s;
 }
 
 .check .layer-2 {
   width: 230px;
+  transition: .5s;
+  transition-delay: .5s;
 }
 
 .check .layer-3 {
   width: 210px;
+  transition: .5s;
+  transition-delay: .7s;
 }
 
 .check .layer-4 {
   width: 190px;
+  transition: .5s;
+  transition-delay: .9s;
 }
