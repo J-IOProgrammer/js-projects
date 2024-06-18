@@ -55,7 +55,7 @@ body {
   top: 0;
   /* right */
   left: 0;
-  width: 250px;
+  width: 0; /* 250px */
   height: 100%;
 }
 
@@ -69,17 +69,18 @@ body {
 
 .layer-2 {
   background: rgb(208, 146, 11);
-  width: 230px;
+  width: 0; /* 230px */
 }
 
 .layer-3 {
   background: rgb(196, 90, 3);
-  width: 210px;
+  width: 0; /* 210px */
 }
 
 .layer-4 {
   background: white;
-  width: 190px;
+  width: 0; /* 190px */
+  overflow: hidden;
 }
 
 .menu-close {
