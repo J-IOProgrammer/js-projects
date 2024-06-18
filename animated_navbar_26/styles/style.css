@@ -112,3 +112,19 @@ body {
   margin: 15px 0;
   color: black;
 }
+
+.layer-1.check {
+  width: 250px;
+}
+
+.check .layer-2 {
+  width: 230px;
+}
+
+.check .layer-3 {
+  width: 210px;
+}
+
+.check .layer-4 {
+  width: 190px;
+}
