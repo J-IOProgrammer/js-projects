@@ -81,3 +81,18 @@ body {
   background: white;
   width: 190px;
 }
+
+.menu-close {
+  position: absolute;
+  top: 30px;
+  /* right */
+  left: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+
+.menu-close:hover {
+  color: #EE472F;
+}
+
