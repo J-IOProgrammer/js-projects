@@ -26,6 +26,8 @@ nav {
   height: 900px;
   display: flex;
   justify-content: center;
-  align-items: center;
   background: linear-gradient(rgba(255,255,255,0.4),rgba(0,0,0,0.9)) , url('../images/team.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
 }
