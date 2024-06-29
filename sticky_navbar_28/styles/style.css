@@ -79,3 +79,8 @@ nav header .logo img {
 
 }
 
+section {
+  margin-top: 100px;
+  padding: 0 200px;
+  color: white;
+}
