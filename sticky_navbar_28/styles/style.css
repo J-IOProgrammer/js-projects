@@ -42,12 +42,14 @@ nav header {
   top: 50px;
   border-radius: 5px;
   box-shadow: 0 5px 15px rgba(87, 87, 87, 0.8);
+  transition: width .7s ease-in-out;
 }
 
 header.sticky {
   position: fixed;
   top: 0;
   width: 100%;
+  border-radius: 0;
 }
 
 nav header .menu {
