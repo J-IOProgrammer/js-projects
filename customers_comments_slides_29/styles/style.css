@@ -21,6 +21,11 @@ body {
   height: 100vh;
 }
 
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
 .testimonial {
   width: 100%;
   height: 100vh;
@@ -34,4 +39,27 @@ body {
   text-align: center;
   color: white;
   font-size: 24px;
+}
+
+.slider {
+  border: 1px solid gray;
+  color: white;
+  padding: 35px;
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+.slider .slide {
+  width: 100%;
+}
+
+.slider .slide p {
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.slider .slide .client-info {
+  margin: 30px;
 }
