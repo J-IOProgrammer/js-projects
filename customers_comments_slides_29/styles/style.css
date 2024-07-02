@@ -65,3 +65,8 @@ body {
   font-size: 18px;
   margin: 60px 0 10px 0;
 }
+
+.slider .slide .client-info span {
+  color: rgb(65, 65, 234);
+  font-size: 14px;
+}
