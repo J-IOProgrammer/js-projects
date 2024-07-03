@@ -54,6 +54,7 @@ body {
 
 .slider .slide {
   width: 100%;
+  display: none;
 }
 
 .slider .slide p {
