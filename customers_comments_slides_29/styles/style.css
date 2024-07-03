@@ -57,6 +57,10 @@ body {
   display: none;
 }
 
+.slider .slide.active {
+  display: block;
+}
+
 .slider .slide p {
   font-size: 15px;
   word-spacing: 2px;
