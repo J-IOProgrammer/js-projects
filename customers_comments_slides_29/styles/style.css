@@ -87,6 +87,10 @@ body {
   margin: 0 8px;
   border-radius: 50%;
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.3;
   border: 2px solid white;
+}
+
+.slide-indicator img.active {
+  opacity: 1;
 }
