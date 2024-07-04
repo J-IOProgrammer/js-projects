@@ -59,6 +59,19 @@ body {
 
 .slider .slide.active {
   display: block;
+  animation: slide 1s ease;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .slider .slide p {
