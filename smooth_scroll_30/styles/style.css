@@ -24,3 +24,19 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+#home {
+  background: yellow;
+}
+
+#products {
+  background: rebeccapurple;
+}
+
+#blog {
+  background: red;
+}
+
+#contact-us {
+  background: green;
+}
