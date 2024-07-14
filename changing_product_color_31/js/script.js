@@ -6,4 +6,6 @@ function changeImage(clicked_image) {
     }
 
     clicked_image.classList.add('active');
+
+    document.querySelector('.img-main-product').src = clicked_image.children[0].src;
 }
