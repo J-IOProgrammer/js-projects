@@ -26,11 +26,23 @@ body {
 
 .product .img-main{
   width: 100%;
-  margin-top: 200px;
+  margin-top: -150px;
   text-align: center;
 }
 
 .product .img-main img {
   width: 300px;
   height: 300px;
+}
+
+.product .img-thumb {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.product .img-thumb img {
+  width: 80px;
 }
