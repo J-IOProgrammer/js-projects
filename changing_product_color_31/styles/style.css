@@ -46,6 +46,7 @@ body {
 .product .img-thumb .box {
   border: 0.5px solid gray;
   margin: 0 20px;
+  padding: 3px;
 }
 
 .product .img-thumb .box.active {
@@ -54,4 +55,5 @@ body {
 
 .product .img-thumb img {
   width: 80px;
+  cursor: pointer;
 }
