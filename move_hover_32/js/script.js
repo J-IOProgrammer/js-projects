@@ -20,5 +20,7 @@ for (let i = 0; i < boxes.length; i++) {
     const y = this.offsetTop;
     div_element.style.left = x + "px";
     div_element.style.top = y + "px";
+    div_element.style.width = this.offsetWidth + "px";
+    div_element.style.height = this.offsetHeight + "px";
   });
 }
