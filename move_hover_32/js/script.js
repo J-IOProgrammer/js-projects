@@ -7,6 +7,8 @@ div_element.style.position = "absolute";
 div_element.style.width = box_width + "px";
 div_element.style.height = box_height + "px";
 div_element.style.backgroundColor = "yellow";
+div_element.style.transition = "all 0.5s ease";
+
 div_element.style.left = boxes[0].querySelector(".inner").offsetLeft + "px";
 div_element.style.top = boxes[0].querySelector(".inner").offsetTop + "px";
 
