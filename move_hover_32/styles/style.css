@@ -62,4 +62,5 @@ body {
 
 .grid-box .content .box .inner h1 {
   font-weight: 900;
+  z-index: 1;
 }
