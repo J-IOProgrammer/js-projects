@@ -91,6 +91,27 @@ body {
   }
 }
 
+.alert-box.show::before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: rgb(29, 179, 49);
+  bottom: 0;
+  left: 0;
+  animation: progressBar 5s linear;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
 .click-btn {
   font-family: "vazir";
   font-size: 20px;
