@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('../images/background_2.jpg');
+  background: url("../images/background_2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -48,15 +48,51 @@ body {
 }
 
 .alert-box.hide {
-  display: none;
+  animation: hideAlert 1s ease forwards;
+}
+
+@keyframes hideAlert {
+  0% {
+    transform: translateX(5%);
+  }
+
+  40% {
+    transform: translateX(0%);
+  }
+
+  80% {
+    transform: translateX(15%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .alert-box.show {
-  display: block;
+  animation: showAlert 1s ease forwards;
+}
+
+@keyframes showAlert {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  40% {
+    transform: translateX(15%);
+  }
+
+  80% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(5%);
+  }
 }
 
 .click-btn {
-  font-family: 'vazir';
+  font-family: "vazir";
   font-size: 20px;
   background: white;
   border: none;
