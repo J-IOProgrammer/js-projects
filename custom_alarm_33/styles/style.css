@@ -24,6 +24,10 @@ body {
   background-size: cover;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .alert-box {
   position: absolute; /* It determines its position in relation to the body */
   top: 50px;
