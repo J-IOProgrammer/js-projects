@@ -27,11 +27,19 @@ body {
 .alert-box {
   position: absolute; /* It determines its position in relation to the body */
   top: 50px;
-  right: 0;
+  left: 0;
   width: 270px;
   padding: 20px 30px;
   background: green;
   color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert-box .close-btn {
+  cursor: pointer;
 }
 
 .click-btn {
