@@ -24,3 +24,13 @@ body {
   background-size: cover;
 }
 
+.click-btn {
+  font-family: 'vazir';
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
