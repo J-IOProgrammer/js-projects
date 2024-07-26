@@ -5,6 +5,7 @@ let timer;
 
 close_btn.addEventListener("click", function () {
     hideAlertBox();
+    clearTimeout(timer);
 });
 
 click_btn.addEventListener("click", function () {
