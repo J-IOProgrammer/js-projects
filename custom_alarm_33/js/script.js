@@ -8,6 +8,7 @@ click_btn.addEventListener("click", function () {
 });
 
 function showAlertBox() {
+    alert_box.classList.add('show');
     if(alert_box.classList.contains('hidden')) {
         alert_box.classList.remove('hidden');
     }
@@ -17,5 +18,6 @@ function showAlertBox() {
 }
 
 function hideAlertBox() {
+    alert_box.classList.remove('show');
     alert_box.classList.add('hide');
 }

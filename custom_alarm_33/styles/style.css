@@ -51,6 +51,10 @@ body {
   display: none;
 }
 
+.alert-box.show {
+  display: block;
+}
+
 .click-btn {
   font-family: 'vazir';
   font-size: 20px;
