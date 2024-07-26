@@ -47,6 +47,10 @@ body {
   cursor: pointer;
 }
 
+.alert-box.hide {
+  display: none;
+}
+
 .click-btn {
   font-family: 'vazir';
   font-size: 20px;
