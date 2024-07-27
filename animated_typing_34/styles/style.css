@@ -25,3 +25,25 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.container {
+  width: 1000px;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h1 span {
+  color: yellow;
+  font-weight: bold;
+}
+
+h1 span::after
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
