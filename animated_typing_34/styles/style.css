@@ -42,9 +42,19 @@ h1 span {
 }
 
 h1 span::after {
-  content: '';
+  content: "";
   border-left: 3px solid yellow;
   margin-left: 5px;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 h2 {
