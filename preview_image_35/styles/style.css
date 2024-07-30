@@ -25,3 +25,39 @@ body {
   background-size: cover;
 }
 
+h1 {
+  margin-bottom: 20px;
+  padding: 5px 25px;
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 5px;
+  box-shadow: 1px 4px 5px 0px rgba(1, 1, 1, 0.8);
+}
+
+.image-preview {
+  width: 300px;
+  height: 150px;
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 5px;
+  box-shadow: 1px 4px 5px 0px rgba(1, 1, 1, 0.8);
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-preview .uploaded-image {
+  display: none;
+  width: 100%;
+}
+
+#input-file::file-selector-button {
+  margin-left: 35px;
+  font-weight: bold;
+  padding: 0.5em;
+  border: thin solid rgb(177, 91, 226);
+  background-color: rgb(205, 128, 250);
+  border-radius: 3px;
+  cursor: pointer;
+}
