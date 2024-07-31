@@ -5,4 +5,8 @@ const text_prev = image_preview_div.querySelector(".text-prev");
 
 input_btn.addEventListener("change", function () {
     const file = this.files[0];
+
+    if(file) {
+        const reader = new FileReader();
+    }
 });
