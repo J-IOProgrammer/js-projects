@@ -9,7 +9,7 @@ input_btn.addEventListener("change", function () {
   if (file) {
     const reader = new FileReader();
 
-    text_prev.computedStyleMap.display = "none";
+    text_prev.style.display = "none";
     uploaded_image.style.display = "block";
 
     reader.addEventListener("load", function () {
