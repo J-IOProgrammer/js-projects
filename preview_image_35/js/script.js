@@ -8,5 +8,8 @@ input_btn.addEventListener("change", function () {
 
     if(file) {
         const reader = new FileReader();
+        text_prev.computedStyleMap.display = 'none';
+        uploaded_image.style.display = "block";
+        
     }
 });
