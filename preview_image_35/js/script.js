@@ -17,6 +17,10 @@ input_btn.addEventListener("change", function () {
     });
 
     reader.readAsDataURL(file);
-
+  } else {
+    text_prev.style.display = null;
+    uploaded_image.style.display = null;
+    uploaded_image.setAttribute("src","");
   }
+
 });
