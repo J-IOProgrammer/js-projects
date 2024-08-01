@@ -20,7 +20,6 @@ input_btn.addEventListener("change", function () {
   } else {
     text_prev.style.display = null;
     uploaded_image.style.display = null;
-    uploaded_image.setAttribute("src","");
+    uploaded_image.setAttribute("src", "");
   }
-
 });
