@@ -41,6 +41,19 @@ nav ul {
 }
 
 nav ul li a {
+  color: black;
   text-decoration: none;
   padding: 10px 20px;
+}
+
+.close {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  width: 60px;
+  height: 60px;
+  background-image: url('../images/hamburger-menu-5.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
