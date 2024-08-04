@@ -49,11 +49,13 @@ nav ul li a {
 .close {
   z-index: 1;
   position: absolute;
-  top: 50%;
+  top: -16px;
   left: -80px;
   width: 60px;
   height: 60px;
   background-image: url('../images/hamburger-menu-5.png');
-  background-size: 100%;
+  background-size: 50%;
   background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
