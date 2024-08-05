@@ -76,3 +76,7 @@ nav ul li a {
 .close:hover {
   background-size: 60%;
 }
+
+.menu-icon.close {
+  background-image: url('../images/close.png');
+}
