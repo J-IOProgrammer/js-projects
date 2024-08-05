@@ -48,7 +48,7 @@ nav ul {
 }
 
 nav.show ul {
-  width: 450px;
+  width: 500px;
   opacity: 1;
   transform: translateX(0);
   }
@@ -71,12 +71,10 @@ nav ul li a {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-}
-
-.close:hover {
-  background-size: 60%;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-icon.close {
+  transform: rotate(360deg);
   background-image: url('../images/close.png');
 }
