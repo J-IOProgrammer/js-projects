@@ -41,18 +41,28 @@ nav ul {
   width: 0;
   opacity: 0;
   overflow: hidden;
+  background: white;
+  padding: 8px;
+  transform: translateX(50px);
+  transition: all 0.4s ease-in-out;
 }
+
+nav.show ul {
+  width: 450px;
+  opacity: 1;
+  transform: translateX(0);
+  }
 
 nav ul li a {
   color: black;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 
 .close {
   z-index: 1;
   position: absolute;
-  top: -16px;
+  top: -8px;
   left: -80px;
   width: 60px;
   height: 60px;
