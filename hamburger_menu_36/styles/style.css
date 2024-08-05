@@ -59,7 +59,7 @@ nav ul li a {
   padding: 0px 20px;
 }
 
-.close {
+.menu-icon {
   z-index: 1;
   position: absolute;
   top: -8px;
