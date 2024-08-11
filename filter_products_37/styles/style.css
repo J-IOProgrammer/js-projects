@@ -45,6 +45,12 @@ header ul li a {
   font-size: 18px;
   padding: 0 30px;
   height: 100%;
+  display: block;
   display: flex;
   align-items: center;
+}
+
+header ul li.active a {
+  background: rgb(234, 65, 234);
+  color: white;
 }
