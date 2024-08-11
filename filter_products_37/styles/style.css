@@ -19,9 +19,5 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
