@@ -48,6 +48,7 @@ header ul li a {
   display: block;
   display: flex;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 
 header ul li.active a {
