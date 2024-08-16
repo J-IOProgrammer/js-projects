@@ -10,7 +10,7 @@ for (let i = 0; i < indicator.length; i++) {
     const displayItems = this.getAttribute("data-filter");
     for (let k = 0; k < main.length; k++) {
       main[k].style.display = "none";
-      if(main[k].getAttribute('data-category') == displayItems){
+      if(main[k].getAttribute('data-category') == displayItems || displayItems == 'all'){
         main[k].style.display = "block";
       }
     }
