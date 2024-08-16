@@ -77,6 +77,7 @@ main .product ul li {
   background: rgb(225, 225, 225);
   list-style: none;
   margin-top: 50px;
+  transition: all 0.5s ease-in-out;
 }
 
 main .product ul li img {
