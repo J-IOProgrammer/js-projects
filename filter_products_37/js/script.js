@@ -6,12 +6,19 @@ for (let i = 0; i < indicator.length; i++) {
     for (let j = 0; j < indicator.length; j++) {
       indicator[j].classList.remove("active");
     }
+    
     this.classList.add("active");
     const displayItems = this.getAttribute("data-filter");
+
     for (let k = 0; k < main.length; k++) {
-      main[k].style.display = "none";
-      if(main[k].getAttribute('data-category') == displayItems || displayItems == 'all'){
-        main[k].style.display = "block";
+
+      main[k].style.transform = "scale(0)";
+
+      if (
+        main[k].getAttribute("data-category") == displayItems ||
+        displayItems == "all"
+      ) {
+        main[k].style.transform = "scale(1)";
       }
     }
   };
