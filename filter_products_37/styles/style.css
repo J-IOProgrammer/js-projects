@@ -58,6 +58,7 @@ header ul li.active a {
 
 main .product {
   width: 100%;
+  height: 150vh;
 }
 
 main .product ul {
