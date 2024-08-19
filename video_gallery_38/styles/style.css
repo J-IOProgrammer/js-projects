@@ -37,3 +37,24 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.col {
+  width: calc(50%-20px);
+}
+
+.col img {
+  width: 100%;
+}
+
+.col .video-img {
+  width: 100%;
+  position: relative;
+}
+
+.col .video-img .play-btn {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 50px);
+}
