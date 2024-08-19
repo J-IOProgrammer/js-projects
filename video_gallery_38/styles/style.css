@@ -60,3 +60,11 @@ body {
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+
+.col .small-img-row {
+  background: rgb(54, 250, 191);
+}
+
+.col .small-img-row .small-img {
+  position: relative;
+}
