@@ -63,8 +63,30 @@ body {
 
 .col .small-img-row {
   background: rgb(54, 250, 191);
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.col .small-img-row p {
+  padding: 0 30px;
 }
 
 .col .small-img-row .small-img {
   position: relative;
+  height: 100%;
+}
+
+.col .small-img-row .small-img:nth-child(1) {
+  margin-top: 0;
+}
+
+.col .small-img-row .small-img .cover {
+  width: 200px;
+  height: 100%;
+}
+
+.col .small-img-row .small-img .play-btn {
+  width: 60px;
+  height: 60px;
 }
