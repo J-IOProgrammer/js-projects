@@ -1,0 +1,1 @@
+const video_player = document.querySelector('#videoPlayer');
