@@ -102,3 +102,11 @@ body {
 #videoPlayer {
   display: none;
 }
+
+.close-btn {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
