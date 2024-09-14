@@ -22,3 +22,24 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.container {
+  width: 1400px;
+  margin: auto;
+}
+
+.counter-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-section .counter-box {
+  width: calc(20% - 20px);
+  text-align: center;
+}
+
+.counter-section .counter-box svg {
+  font-size: 60px;
+  color: rgb(140, 239, 40);
+}
