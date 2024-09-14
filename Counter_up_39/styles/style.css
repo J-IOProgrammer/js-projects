@@ -37,9 +37,19 @@ body {
 .counter-section .counter-box {
   width: calc(20% - 20px);
   text-align: center;
+  color: white;
 }
 
 .counter-section .counter-box svg {
   font-size: 60px;
   color: rgb(140, 239, 40);
+}
+
+.counter-section .counter-box .counter {
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.counter-section .counter-box p {
+  font-size: 25px;
 }
