@@ -18,6 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: linear-gradient(rgba(74, 33, 236, 0.8), rgba(18, 206, 149, 0.8)), url('../images/1.jpg');
+  background-position: center;
+  background-size: cover;
 }
-
-
