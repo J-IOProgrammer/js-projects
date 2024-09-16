@@ -58,6 +58,11 @@ header ul li a:hover {
   color: plum;
 }
 
+header .nav,
+header .logo {
+  padding: 0 15px;
+}
+
 header .logo a {
   color: white;
   font-size: 25px;
