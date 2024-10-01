@@ -132,4 +132,8 @@ header .logo a {
   header ul li a {
     padding: 10px 0;
   }
+  .navbar-toggler {
+    margin: 10px;
+    padding: 13px 5px;
+  }
 }
