@@ -50,7 +50,7 @@ header ul li {
 
 header ul li a {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   transition: all 0.3s ease-in;
 }
 
@@ -65,16 +65,17 @@ header .logo {
 
 header .logo a {
   color: white;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .navbar-toggler {
-  width: 34px;
-  height: 28px;
+  width: 30px;
+  height: 20px;
   background: whitesmoke;
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  display: none;
 }
 
 .navbar-toggler span {
@@ -104,4 +105,16 @@ header .logo a {
 
 .navbar-toggler span::after {
   transform: translateY(6px);
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+  .navbar-toggler {
+    display: block;
+  }
+  header .nav {
+    width: 100%;
+  } 
 }
