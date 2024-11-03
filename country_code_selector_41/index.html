@@ -9,7 +9,25 @@
 
   <body>
    
-    
+    <form>
+      <div>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="+1">USA (+1)</option>
+          <option value="+98">Iran (+98)</option>
+          <optgroup label="other ... ">
+          <option value="+49">Germany (+49)</option>
+          <option value="+34">Spain (+34)</option>
+          <option value="+39">Italy (+39)</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <label for="">Phone number</label>
+        <span id="selected_country">+1 :</span>
+        <input type="tel" maxlength="10" placeholder="your phone number">
+      </div>
+    </form>
 
     <script src="js/all.min.js"></script>
     <script src="js/script.js"></script>
