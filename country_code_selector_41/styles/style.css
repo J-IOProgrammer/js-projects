@@ -32,3 +32,10 @@ div {
   position: relative;
 }
 
+label {
+  display: block;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
