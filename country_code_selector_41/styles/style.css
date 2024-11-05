@@ -48,6 +48,11 @@ select, input {
   outline: none;
 }
 
+input {
+  padding-left: 80px;
+  box-sizing: border-box;
+}
+
 span {
   position: absolute;
   left: 0;
