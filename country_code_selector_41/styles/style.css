@@ -48,3 +48,14 @@ select, input {
   outline: none;
 }
 
+span {
+  position: absolute;
+  left: 0;
+  width: 65px;
+  height: 40px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: ltr;
+}
