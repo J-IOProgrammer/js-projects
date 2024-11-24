@@ -52,13 +52,13 @@ input {
   padding-left: 80px;
   box-sizing: border-box;
 }
-5 : 25
+
 span {
   position: absolute;
   left: 0;
   width: 65px;
   height: 40px;
-  padding: 8px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
