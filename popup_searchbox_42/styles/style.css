@@ -37,6 +37,15 @@ body {
   font-size: 25px;
 }
 
+.search-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(89, 149, 227);
+}
+
 .search-popup {
   position: absolute;
   top: 50%;
