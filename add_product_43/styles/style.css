@@ -20,7 +20,7 @@ body {
 h1 {
   position: relative;
   top: 60px;
-  left: 10%;
+  margin-left: 100px;
   cursor: pointer;
 }
 
