@@ -36,3 +36,36 @@ h1::before {
   color: white;
   border-radius: 50%;
 }
+
+section {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+
+section div {
+  width: 32.33%;
+  height: 100%;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+section div img {
+  width: 300px;
+  height: 180px;
+}
+
+section div h6 {
+  padding: 30px;
+  font-size: 18px;
+}
+
+section div h6 span {
+  color: green;
+  margin-right: 5px;
+}
