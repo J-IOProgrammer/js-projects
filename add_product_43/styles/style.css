@@ -48,7 +48,7 @@ section {
 
 section div {
   width: 32.33%;
-  height: 100%;
+  margin-top: 30px;
   position: relative;
   padding: 10px;
   box-sizing: border-box;
