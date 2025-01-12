@@ -82,3 +82,13 @@ section div button {
   margin-top: 20px;
   cursor: pointer;
 }
+
+.select {
+  background: rgb(66, 63, 63);
+  position: absolute;
+  width: 60vw;
+  height: 80vh;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
