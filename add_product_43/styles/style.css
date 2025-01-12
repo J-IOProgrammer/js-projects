@@ -53,6 +53,7 @@ section div {
   padding: 10px;
   box-sizing: border-box;
   background-color: antiquewhite;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 section div img {
