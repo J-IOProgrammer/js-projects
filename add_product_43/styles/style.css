@@ -99,6 +99,7 @@ section div button {
   left: 50%;
   transform: translateX(-50%);
   display: none;
+  overflow-y: scroll;
 }
 
 .select.display {
@@ -109,8 +110,33 @@ section div button {
   width: 100%;
   height: 200px;
   display: flex;
+  position: relative;
+  background: gray;
+  margin: 5px;
 }
 
 .select div img {
   width: 300px;
+}
+
+.select div p {
+  color: white;
+  padding: 20px;
+}
+
+.select div h6 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  font-size: 20px;
+  color: white;
+}
+
+.select div h6 span {
+  color: white;
+  margin-right: 5px;
+}
+
+.select div button {
+  display: none;
 }
