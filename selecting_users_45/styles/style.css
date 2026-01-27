@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.ttf") format("truetype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "vazir";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+section h1 {
+  margin-bottom: 20px;
+}
+
+section table {
+  margin: auto;
+  color: #757575;
+  background-color: white;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+section table tr {
+  border: 1px solid black;
+}
+
+section table tr td {
+  padding: 10px 5px;
+}
+
+section table input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+.fa-trash {
+  color: red;
+}
+
+.fa-pen-to-square {
+  color: green;
+}
+
+button#delete-all-btn {
+  border: none;
+  padding: 10px;
+  background: red;
+  color: white;
+  font-family: 'vazir';
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+button#delete-all-btn.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+button#delete-all-btn svg {
+  color: white !important;
+}
