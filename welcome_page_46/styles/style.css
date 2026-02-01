@@ -29,3 +29,22 @@ header {
   background: url(../images/bg.png);
   background-size: cover;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 25px;
+  color: white;
+
+}
