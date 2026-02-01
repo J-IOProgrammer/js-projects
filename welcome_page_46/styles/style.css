@@ -13,9 +13,17 @@
 
 body {
   font-family: "vazir";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
 
+.container {
+  width: 1400px;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+}
