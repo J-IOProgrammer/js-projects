@@ -25,6 +25,27 @@ body {
   z-index: 1;
 }
 
+.intro .logo-header {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  color: white;
+  display: flex;
+  transform: translateX(50%);
+}
+
+.intro .logo-header div {
+  margin: 0 5px;
+}
+
+.logo-header div:nth-child(1) {
+  color: red;
+}
+
+.logo {
+  opacity: 0;
+}
+
 .container {
   width: 1400px;
   margin: auto;
