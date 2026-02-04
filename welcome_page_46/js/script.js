@@ -12,7 +12,7 @@ window.addEventListener('load', function() {
     })
 
     this.setTimeout(()=> {
-        logo.forEach(logo => {
+        logos.forEach(logo => {
             this.setTimeout(()=> {
                 logo.classList.remove('active')
                 logo.classList.add('fade')
@@ -22,5 +22,5 @@ window.addEventListener('load', function() {
 
     this.setTimeout(()=> {
         intro.style.top = '-100vh'
-    }, 2000)
+    }, 2400)
 })
