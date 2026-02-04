@@ -12,11 +12,11 @@ window.addEventListener('load', function() {
     })
 
     this.setTimeout(()=> {
-        logos.forEach(logo => {
+        logos.forEach((logo, index) => {
             this.setTimeout(()=> {
                 logo.classList.remove('active')
                 logo.classList.add('fade')
-            })
+            }, (index+1)*50)
         })
     }, 2000)
 
