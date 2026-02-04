@@ -4,10 +4,10 @@ const logos = document.querySelectorAll('.logo')
 window.addEventListener('load', function() {
 
     this.setTimeout(()=> {
-        logos.forEach(logo => {
+        logos.forEach((logo, index) => {
             this.setTimeout(()=> {
                 logo.classList.add('active')
-            }, 400)
+            }, (index+1)*400)
         })
     })
 
