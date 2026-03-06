@@ -18,3 +18,28 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+.container {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(45deg, purple, skyblue);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  height: 450px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.container .wrapper img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+  display: block;
+  margin: 20px auto;
+}
