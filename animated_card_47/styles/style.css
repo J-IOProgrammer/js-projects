@@ -30,7 +30,7 @@ body {
 }
 
 .container:hover {
-  height: 450px;
+  height: 470px;
   width: 350px;
   border-radius: 10px;
 }
