@@ -88,4 +88,9 @@ body {
   cursor: pointer;
   font-size: 17px;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.content .button .btn button:hover {
+  transform: scale(0.95);
 }
