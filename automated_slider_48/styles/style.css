@@ -25,13 +25,18 @@ body {
 .slider .items {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .slider .items .item {
   width: 100%;
   height: 100%;
-  display: flex;
+  display: none;
   align-items: center;
+}
+
+.slider .items .item.active {
+  display: flex;
 }
 
 .slider .items .item .image {
@@ -50,6 +55,7 @@ body {
   position: relative;
   margin: auto;
   text-align: left;
+  color: white;
 }
 
 .slider .items .item .caption .text h2 {
