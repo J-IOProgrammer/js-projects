@@ -13,9 +13,64 @@
 
 body {
   font-family: "vazir";
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
 }
 
+.slider {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.slider .items {
+  height: 100%;
+  width: 100%;
+}
+
+.slider .items .item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider .items .item .image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slider .items .item .caption {
+  width: 1170px;
+  position: relative;
+  margin: auto;
+  text-align: left;
+}
+
+.slider .items .item .caption .text h2 {
+  font-size: 50px;
+  animation: text 1s ease forwards;
+}
+
+.slider .items .item .caption .text p {
+  font-size: 20px;
+  animation: text 1s ease forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+@keyframes text {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
